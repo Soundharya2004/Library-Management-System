@@ -1,6 +1,6 @@
 // connection.js
 
-const baseURL = 'http://192.168.29.69:5000'; 
+const baseURL = 'http://your network_ip:5000'; 
 
 export default baseURL;
  
