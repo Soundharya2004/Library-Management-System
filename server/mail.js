@@ -12,8 +12,8 @@ const sendEmail = async (to, subject, text) => {
       debug: true, // Enable debugging
       secureConnection: false, // Allow insecure connections
       auth: {
-        user: "bidblogger19@gmail.com", // Use environment variable for email address
-        pass: "kgsqquqjagdvypje", // Use environment variable for email password
+        user: "", // Use environment variable for email address
+        pass: "", // Use environment variable for email password
       }, 
       tls: {
         rejectUnauthorized: false // Allow insecure TLS connections
